@@ -130,6 +130,10 @@ pre {
   scrollbar-width: none; /* Firefox */
 }
 
+.prose hr {
+  @apply mt-8;
+}
+
 /* Remove Safari input shadow on mobile */
 input[type='text'],
 input[type='email'] {
