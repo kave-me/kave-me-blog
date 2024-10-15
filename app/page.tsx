@@ -4,7 +4,7 @@ import { Experience } from "./Experience";
 
 export default function Page() {
   return (
-    <section>
+    <section className="select-none">
       <Experience />
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter hidden">
         My Portfolio
