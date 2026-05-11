@@ -1,11 +1,11 @@
 import { BlogPosts } from "app/components/posts";
 
-import { Experience } from "./Experience";
+import { ExperienceLoader } from "./ExperienceLoader";
 
 export default function Page() {
   return (
     <section className="select-none">
-      <Experience />
+      <ExperienceLoader />
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter hidden">
         My Portfolio
       </h1>
